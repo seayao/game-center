@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top slideUp slideDown" role="navigation" id="menu-nav">
+<nav class="navbar navbar-default navbar-fixed-top slideUp slideDown my-nav" role="navigation" id="menu-nav">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -29,19 +29,38 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">热门</a></li>
-                <li><a href="#">最新</a></li>
+                <li><a href="http://www.mwyking.com" target="_blank">长图</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">听见好声音<span class="caret"></span></a>
+                    <ul class="dropdown-menu text-center">
+                        <li>
+                            <a href="http://www.mwyking.com:801" target="_blank">
+                                <span class="label label-primary">移动版</span>
+                            </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#hearModal">
+                                <span class="label label-primary">PC版</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://www.mwyking.com:803" target="_blank">Answer</a></li>
+                <li><a href="http://www.mwyking.com:805" target="_blank">Chat<sup class="my-sup">Beta版</sup></a></li>
             </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group" style="position: relative;">
-                    <input type="text" class="search-box form-control" placeholder="搜索…">
-                    <span class="glyphicon glyphicon-search search-btn" aria-hidden="true"></span>
-                </div>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">登录</a></li>
-                <li><a href="#">注册</a></li>
-            </ul>
+            <div class="pull-right">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group" style="position: relative;">
+                        <input type="text" class="search-box form-control" placeholder="搜索…">
+                        <span class="glyphicon glyphicon-search search-btn" aria-hidden="true"></span>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+            </div>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -66,7 +85,7 @@
                                             <div class="pull-right"><h5 class="game-title-txt">【六边形消消乐】</h5></div>
                                         </div>
                                         <p class="game-des">休闲益智小游戏</p>
-                                        <p class="pull-right"><span class="badge my-badge">42</span></p>
+                                        <p class="pull-right"><span class="badge my-badge">56</span></p>
                                     </div>
                                 </div>
                             </a>

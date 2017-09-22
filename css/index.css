@@ -21,6 +21,21 @@ body {
     overflow: auto !important;
 }
 
+.my-nav{
+    background-color: #fff;
+}
+
+.my-sup{
+    padding: 1px 2px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: .25em;
+    background-color: #d9534f;
+    vertical-align: super;
+}
+
 .my-modal-footer{
     margin-top: 0;
 }
